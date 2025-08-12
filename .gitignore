@@ -1,0 +1,35 @@
+ # =========================
+# Compiled object files
+*.o
+*.obj
+
+# Executables
+a.out
+fdf
+
+# Libraries
+*.a
+*.so
+*.dylib
+
+# MiniLibX build artifacts
+mlx/*.o
+mlx/*.a
+mlx/*.so
+mlx/*.dylib
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+
+# Temporary / swap files
+*.tmp
+*.swp
+*.swo
+
+# Build directories
+build/
+bin/
+
+# 42 specific outputs
+*.out
