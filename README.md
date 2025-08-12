@@ -45,3 +45,34 @@ If your project uses `libft` as a submodule:
 git clone --recurse-submodules <repo-url>
 cd push_swap
 make
+
+---
+
+## 🚀 Usage
+Sorting
+
+./push_swap 4 67 3 87 23
+
+---
+
+📈 Performance
+
+The efficiency of your program is measured by:
+
+    Number of operations (fewer is better)
+
+    Correctness (always sorted at the end)
+
+    Handling of edge cases (empty input, already sorted, duplicates, etc.)
+
+---
+
+🧠 Key Learnings
+
+    Designing algorithms with time and space complexity in mind
+
+    Managing two stacks with minimal operations
+
+    Writing clean, modular, and maintainable C code
+
+    Implementing robust input validation
