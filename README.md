@@ -41,7 +41,7 @@ You’ll also write a **checker** program to verify the correctness of the outpu
 ## 📦 Installation & Compilation
 
 If your project uses `libft` as a submodule:
-```bash
+
 git clone --recurse-submodules <repo-url>
 cd push_swap
 make
@@ -59,20 +59,20 @@ Sorting
 
 The efficiency of your program is measured by:
 
-    Number of operations (fewer is better)
+  Number of operations (fewer is better)
 
-    Correctness (always sorted at the end)
+  Correctness (always sorted at the end)
 
-    Handling of edge cases (empty input, already sorted, duplicates, etc.)
+  Handling of edge cases (empty input, already sorted, duplicates, etc.)
 
 ---
 
 🧠 Key Learnings
 
-    Designing algorithms with time and space complexity in mind
+  Designing algorithms with time and space complexity in mind
 
-    Managing two stacks with minimal operations
+  Managing two stacks with minimal operations
 
-    Writing clean, modular, and maintainable C code
+  Writing clean, modular, and maintainable C code
 
-    Implementing robust input validation
+  Implementing robust input validation
