@@ -1,78 +1,64 @@
-# Push_swap
+# FdF
 
-## 📌 Overview
-**Push_swap** is a sorting algorithm project from [42 School](https://42.fr/).  
-The goal is to sort a stack of integers with the fewest possible operations using a restricted set of stack manipulation instructions.  
-This project tests your ability to design efficient algorithms, manage complexity, and implement robust C code.
+# 🌄 FdF - Wireframe Landscape Renderer
 
----
-
-## 🎯 Objective
-Given a list of integers as arguments, your program must output a sequence of predefined operations that will sort the numbers in ascending order.  
-You’ll also write a **checker** program to verify the correctness of the output.
+**FdF (Fil de Fer)** is a project from [42 School](https://42.fr/) that introduces students to graphical programming and 3D wireframe rendering. The goal is to take a 2D map of elevations and render a 3D representation using isometric (or other) projections with MiniLibX.
 
 ---
 
-## ⚙️ Allowed Operations
-- `sa` — swap the first 2 elements of stack **A**
-- `sb` — swap the first 2 elements of stack **B**
-- `ss` — `sa` and `sb` at the same time
-- `pa` — push the first element of **B** onto **A**
-- `pb` — push the first element of **A** onto **B**
-- `ra` — rotate **A** upwards
-- `rb` — rotate **B** upwards
-- `rr` — `ra` and `rb` at the same time
-- `rra` — reverse rotate **A** downwards
-- `rrb` — reverse rotate **B** downwards
-- `rrr` — `rra` and `rrb` at the same time
+## 🛠️ Features
+
+- Parses `.fdf` elevation maps
+- Renders 3D wireframe using:
+  - Isometric projection (default)
+  - Optional parallel projection
+- Zoom, pan, and rotate the model in real-time
+- Color gradients based on elevation
+- User interaction with keyboard
+- Clean, optimized C code with error handling
 
 ---
 
-## 🛠️ Implementation Details
-- **Language:** C
-- **Paradigm:** Algorithmic problem-solving with complexity optimization
-- **Algorithm choice:** 
-  - Small datasets: simple swap/rotate strategy
-  - Large datasets: chunk-based or radix sort inspired method
-- **Error handling:** Detects duplicates, non-numeric arguments, and integer overflow
+## 📸 Demo
+
+![FdF Screenshot](./assets/fdf-demo.png)
+
+> *Example of rendered 3D map in isometric view*
 
 ---
 
-## 📦 Installation & Compilation
+🚀 Run the Program
 
-If your project uses `libft` as a submodule:
-
-git clone --recurse-submodules <repo-url>
-cd push_swap
-make
+./fdf test_maps/<map>
 
 ---
 
-## 🚀 Usage
-Sorting
+## 🎮 Controls
 
-./push_swap 4 67 3 87 23
+Key	                  Action
 
----
-
-📈 Performance
-
-The efficiency of your program is measured by:
-
-  Number of operations (fewer is better)
-
-  Correctness (always sorted at the end)
-
-  Handling of edge cases (empty input, already sorted, duplicates, etc.)
+W / A / S / D	        Move the camera
++ / -	                Zoom in/out
+Arrow Keys	          Rotate map
+c	                    switch to "Altitude view"          
+ESC                   Exit program
 
 ---
 
-🧠 Key Learnings
+🗺️ Map File Format
 
-  Designing algorithms with time and space complexity in mind
+A map is a plain text file.
 
-  Managing two stacks with minimal operations
+Each number represents elevation.
 
-  Writing clean, modular, and maintainable C code
+Optionally, color can be added in hex format.
 
-  Implementing robust input validation
+Example:
+
+0 0 0 0
+0 1 2 3
+0 0 0 0 
+
+With colors:
+
+0,0xFFFFFF 1,0xFF0000 2,0x00FF00 3,0x0000FF
