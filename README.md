@@ -21,7 +21,7 @@
 
 ## 📸 Demo
 
-![FdF Screenshot](./assets/fdf-demo.png)
+![FdF Screenshot](./asset/fdf-demo.png)
 
 > *Example of rendered 3D map in isometric view*
 
