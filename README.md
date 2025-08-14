@@ -38,7 +38,7 @@
 Key	                  Action
 
 W / A / S / D	        Move the camera
-+ / -	                Zoom in/out
+'+' / '-'	        Zoom in/out
 Arrow Keys	        Rotate map
 c	                switch to "Altitude view"          
 ESC                   	Exit program
@@ -54,14 +54,14 @@ Each number represents elevation.
 Optionally, color can be added in hex format.
 
 Example:
-
+```
 0 0 0 0
 0 1 2 3
 0 0 0 0 
-
+```
 With colors:
-
+```
 0 0 0 0
 0,0xFFFFFF 1,0xFF0000 2,0x00FF00 3,0x0000FF
 0 0 0 0
-
+```
