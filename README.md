@@ -37,7 +37,7 @@
 ```
 Key                     Action
 
-W/A/S/D           Move the camera
+W/A/S/D                 Move the camera
 + / -                   Zoom in/out
 Arrow Keys              Rotate map
 c                       switch to "Altitude view"          
