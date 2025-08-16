@@ -35,12 +35,12 @@
 
 ## 🎮 Controls
 ```
-Key	                  Action
+Key                     Action
 
-W / A / S / D	        Move the camera
-'+' / '-'	        Zoom in/out
-Arrow Keys	        Rotate map
-c	                switch to "Altitude view"          
+W/A/S/D           Move the camera
++ / -                   Zoom in/out
+Arrow Keys              Rotate map
+c                       switch to "Altitude view"          
 ESC                   	Exit program
 ```
 ---
