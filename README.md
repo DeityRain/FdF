@@ -34,7 +34,7 @@
 ---
 
 ## 🎮 Controls
-
+```
 Key	                  Action
 
 W / A / S / D	        Move the camera
@@ -42,7 +42,7 @@ W / A / S / D	        Move the camera
 Arrow Keys	        Rotate map
 c	                switch to "Altitude view"          
 ESC                   	Exit program
-
+```
 ---
 
 ## 🗺️ Map File Format
