@@ -1,12 +1,12 @@
 ## FdF
 
-## 🌄 FdF - Wireframe Landscape Renderer
+## FdF - Wireframe Landscape Renderer
 
 **FdF (Fil de Fer)** is a project from [42 School](https://42.fr/) that introduces students to graphical programming and 3D wireframe rendering. The goal is to take a 2D map of elevations and render a 3D representation using isometric (or other) projections with MiniLibX.
 
 ---
 
-## 🛠️ Features
+## Features
 
 - Parses `.fdf` elevation maps
 - Renders 3D wireframe using:
@@ -19,7 +19,7 @@
 
 ---
 
-## 📸 Demo
+## Demo
 
 ![FdF Screenshot](./asset/fdf-demo.png)
 
@@ -27,13 +27,13 @@
 
 ---
 
-## 🚀 Run the Program
+## Run the Program
 
 ./fdf test_maps/<map>
 
 ---
 
-## 🎮 Controls
+## Controls
 ```
 Key                     Action
 
@@ -45,7 +45,7 @@ ESC                   	Exit program
 ```
 ---
 
-## 🗺️ Map File Format
+## Map File Format
 
 A map is a plain text file.
 
