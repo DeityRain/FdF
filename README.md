@@ -65,3 +65,12 @@ With colors:
 0,0xFFFFFF 1,0xFF0000 2,0x00FF00 3,0x0000FF
 0 0 0 0
 ```
+
+---
+
+## Author
+
+**DeityRain**    
+🧭 [github.com/DeityRain](https://github.com/DeityRain)
+
+---
